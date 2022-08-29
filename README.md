@@ -1,8 +1,7 @@
 # MediaDecodeKotlin
 Kotlin版的多媒体文件解析Demo。
 
-##音频解析
-
+## 音频解析
 解析音频文件，输出成PCM音频模拟信号流<br>
 ***帧率***：Sampling Rate是指在数码音频和视频技术应用中，
 当进行模拟/数码转换时，每秒钟对模拟信号进行取样时的快慢次数。 
@@ -19,8 +18,7 @@ Kotlin版的多媒体文件解析Demo。
 高地址部分权值高，低地址部分权值低。<br>
 ***每秒数据量*** = $帧率\times位深\times声道\div8$<br>
 ***音频总时间（秒）*** = $声音数据总数\div每秒数据量$<br>
-###详细说明
-
+### 详细说明
 [WAV文件解析](src/main/kotlin/audio/wav/WAV_README.md)
 
 
